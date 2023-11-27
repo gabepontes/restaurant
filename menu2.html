@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Brasil Bistro - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Brasil Bistro</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          11866 San Pablo Ave, El Cerrito, CA 94530
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Open : 07:30 am - 06:00 pm</span>
+      </div>
+
+      <a href="tel:+15106805192" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">(510) 680-5192</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:brasilbistro.elcerrito@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">brasilbistro.elcerrito@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#order" class="btn btn-secondary">
+        <span class="text text-1">Order Online</span>
+
+        <span class="text text-2" aria-hidden="true">Order Online</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #MENU
+      -->
+      <div style="height: 100px;"></div>
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+    
+            <h2 class="headline-1 section-title text-center">Brazilian Pastries</h2>
+      
+          <!-- Meal Menu -->
+          <ul class="grid-list menu-meal ">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu38.webp" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Coxinha</a>
+                    </h3>
+
+                    <!-- <span class="badge label-1">Seasonal</span> -->
+
+                    <span class="span title-2">$5.00</span>
+                  </div>
+
+                  <p class="card-text label-1">Brazilian pastry with chicken
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu39.jpg" width="100" height="100" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a  class="card-title">Torta de frango & Catupiry</a>
+                      </h3>
+  
+                      <!-- <span class="badge label-1">Seasonal</span> -->
+  
+                      <span class="span title-2">$8.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Chicken pie with Catupiry
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu40.jpg" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Bolinho de Aipim/Mandioca</a>
+                    </h3>
+
+                    <span class="span title-2">$5.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Yucca and ground beef
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu41.jpg" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Disco</a>
+                    </h3>
+
+                    <span class="span title-2">$5.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Beef patty in a brazilian style
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu42.jpg" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Enroladinho de queijo e presunto</a>
+                    </h3>
+
+                    <!-- <span class="badge label-1">New</span> -->
+
+                    <span class="span title-2">$5.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Ham and cheese roll
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu43.jpg" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Enroladinho de salsicha</a>
+                    </h3>
+
+                    <span class="span title-2">$5.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Sausage roll
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu44.jpg" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a  class="card-title">Risole de carne</a>
+                    </h3>
+                    
+                    <span class="span title-2">$5.00</span>
+                  
+                  </div>
+
+                  <p class="card-text label-1">
+                    Pastry with corn and beef
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu45.webp" width="100" height="100" loading="lazy" alt="Opu Fish"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a  class="card-title">Quibe</a>
+                      </h3>
+                      
+                      <span class="span title-2">$5.00</span>
+                    
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Ground beef and cheese
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li> 
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu46.jpg" width="100" height="100" loading="lazy" alt="Opu Fish"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a  class="card-title">Risole de milho</a>
+                      </h3>
+                      
+                      <span class="span title-2">$4.50</span>
+                    
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Pastry with corn and cheese
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>     
+             
+           </ul>
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+ 
+                 
+                </li>
+                
+
+              <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+                class="shape shape-3 move-anim">    
+
+             
+        </div>
+      </section>
+
+    </main>
+</article>
+
+
+<footer class="footer section has-bg-image text-center"
+style="background-image: url('./assets/images/footer-bg.jpg')">
+<div class="container">
+
+  <div class="footer-top grid-list">
+
+    <div class="footer-brand has-before has-after">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+      </a>
+
+      <address class="body-4">
+        11866 San Pablo Ave, El Cerrito, CA 94530
+      </address>
+
+      <a href="mailto:brasilbistro.elcerrito@gmail.com" class="body-4 contact-link">brasilbistro.elcerrito@gmail.com</a>
+
+      <a href="tel:+15106805192" class="body-4 contact-link">Call Us : (510) 680-5192</a>
+
+      <p class="body-4">
+        Open : 07:30 am - 06:00 pm
+      </p>
+
+      <div class="wrapper">
+        <div class="separator"></div>
+        <div class="separator"></div>
+        <div class="separator"></div>
+      </div>
+
+      
+
+    </div>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="#index.html" class="label-2 footer-link hover-underline">Home</a>
+      </li>
+
+      <li>
+        <a href="index.html#menu" class="label-2 footer-link hover-underline">Menus</a>
+      </li>
+
+      <li>
+        <a href="index.html#about" class="label-2 footer-link hover-underline">About Us</a>
+      </li>
+
+      <!-- <li>
+        <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+      </li> -->
+
+
+
+    </ul>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="https://www.facebook.com/brasilbistro/" target="_blank" class="label-2 footer-link hover-underline">Facebook</a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/brasil_bistro/" target="_blank" class="label-2 footer-link hover-underline">Instagram</a>
+      </li>
+
+
+      <li>
+        <a href="https://www.google.com/maps/place/Brasil+Bistro/@37.929121,-122.320805,15z/data=!4m2!3m1!1s0x0:0x11ed1f350ce5e9db?sa=X&ved=2ahUKEwjPtbzj4t2BAxXXlWoFHXtPAJoQ_BJ6BAhLEAA&ved=2ahUKEwjPtbzj4t2BAxXXlWoFHXtPAJoQ_BJ6BAhoEAg" target="_blank" class="label-2 footer-link hover-underline">Google Map</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+
+</div>
+</footer>
+
+
+
+
+
+<!-- 
+- #BACK TO TOP
+-->
+
+<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+</a>
+
+
+
+
+
+<!-- 
+- custom js link
+-->
+<script src="./assets/js/script2.js"></script>
+
+<!-- 
+- ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
